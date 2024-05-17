@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <PublishAot>true</PublishAot>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="CsvHelper" Version="31.0.4" />
+    <PackageReference Include="EPPlus" Version="7.1.1" />
+    <PackageReference Include="Microsoft.Data.Analysis" Version="0.21.1" />
+    <PackageReference Include="Microsoft.ML.AutoML" Version="0.21.1" />
+    <PackageReference Include="SandDance.InteractiveExtension" Version="1.0.138" />
+    <PackageReference Include="XPlot.Plotly" Version="4.0.6" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Extensions\" />
+    <Folder Include="NewFolder\" />
+  </ItemGroup>
+</Project>
